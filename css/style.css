@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+/*===========header=========*/
+
+header {
+    margin-top: 24px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 24px;
+}
+
+ul>li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00acac;
+}
+
+a {
+    color: white;
+}
+
+.how-to-start {
+    position: fixed;
+    right: -40px;
+    top: 300px;
+    z-index: 2
+}
+.top{
+   position: absolute;
+    right: 88px;
+    top: 2400px;
+    z-index: 2;
+    z-index: 2 
+}
+.top:hover{
+    box-shadow: 0 0 10px #00acac;
+}
+
+.logo {
+    max-height: 87px;
+    margin-left: -15px
+}
+
+.icon {
+    margin-right: 4px;
+    opacity: .2
+}
+
+.icon:hover {
+    opacity: 1
+}
+
+.email_icon {
+    max-height: 15px;
+}
+
+.scype_icon {
+    max-height: 15px;
+}
+
+.phone_icon {
+    max-height: 15px;
+    margin-left: -19px;
+}
+
+.map_icon {
+    max-height: 13px;
+}
+
+.language {
+    margin-top: 32px;
+}
+
+.language .dropdown {
+    float: right;
+    border: none;
+}
+
+.menu_hidden {
+    height: 18px;
+    width: 26px;
+    background: url(../img/menu_hidden.png);
+    margin-top: 40px;
+    float: right;
+}
+
+.btn {
+    border: 0px;
+}
+
+.language>span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.phone>li {
+    font-weight: normal;
+    color: black;
+}
+
+.button {
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border-bottom: 3px solid #3ba639;
+    color: #fff;
+    background-color: #4ab848;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0 20px;
+    transition: .2s;
+}
+
+.button:active {
+    border-bottom: none
+}
+
+.signup {
+    width: 209px;
+    margin: 30px 0 0 0;
+    ;
+}
+
+
+/*===============================NAVIGATION MENU===============*/
+
+nav {
+    margin-top: 10px;
+}
+
+.menu {
+    line-height: 12px;
+    border-bottom: 3px solid #009a9a;
+    width: 100%;
+    background: #00acac;
+    height: 60px;
+}
+
+.menu_more a {
+    color: white;
+    opacity: .7;
+    border-bottom: 1px dashed white;
+}
+
+.menu ul li {
+    color: white;
+    font-size: 13px;
+}
+
+.menu_links {
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu_links:last-child {
+    margin-right: 0;
+}
+
+.magnifying_icon {
+    max-height: 15px;
+    margin-left: 95px;
+    color: white;
+    opacity: .7;
+}
+
+
+/*==========end header=========*/
+
+
+/*============content===========*/
+
+.slider {
+    background: url(../img/KLOPPEX.RU_rebenok_devushka_lico_mat_materinstvo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    padding: 0;
+}
+
+.slider_content {
+    background: rgba(5, 114, 133, .3);
+    height: 250px;
+    width: 100%;
+    padding: 18px 0;
+}
+
+.slider_breadcrumb>ul {
+    margin: 0 0 0 165px;
+}
+
+.slider_breadcrumb>ul>li {
+    margin: 0 5px;
+    float: left;
+    color: white;
+}
+
+.slider_breadcrumb>ul>li:first-child {
+    text-decoration: underline
+}
+
+.slider_breadcrumb:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.slider_title {
+    text-align: center;
+    padding: 40px 0 90px 0;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 40px;
+    color: white;
+}
+
+
+/*-----------aside----------*/
+
+.aside_menu_links ul li {
+    text-transform: none;
+    border-bottom: 1px solid #d9e9e9;
+    height: 55px;
+    vertical-align: baseline;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.aside_menu_links ul li:last-child {
+    border-bottom: none;
+}
+
+.punct {
+    display: inline-block;
+    margin: 0 5px;
+    height: 10px;
+    width: 10px;
+    border: 3px solid #009a9a;
+    border-radius: 50%;
+}
+
+.aside_menu_links ul li a {
+    color: black;
+    line-height: 16px;
+    width: 255px;
+}
+
+.hiden_menu {
+    position: absolute;
+    width: 282px;
+    background: white;
+    top: 371px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 10px black;
+    transition: .2s;
+}
+
+.active {
+    left: -265px;
+}
+
+.hiden_menu li {
+    width: 200px;
+}
+
+.hiden_menu_show {
+    position: absolute;
+    left: 260px;
+    top: 5px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.form {
+    height: 333px;
+    background: #ecf7f7;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.formnew {
+    background: #ecf7f7;
+    height: 333px;
+    text-align: center;
+    /*    padding-left: 50px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form_small {
+    background: #ecf7f7;
+    display: flex;
+    justify-content: center
+}
+
+h2 {
+    color: #00acac;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.form>.input_form {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #009a9a;
+    height: 33px;
+    width: 195px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.send_button {
+    margin-left: 19px;
+    width: 75px;
+}
+
+.baner {
+    margin-top: 34px;
+    height: 180px;
+    background: #a8b9c6;
+    text-align: center;
+}
+
+.baner p {
+    color: white;
+    line-height: 180px;
+    font-size: 26px;
+}
+
+
+/*-----------end aside-----------*/
+
+
+/*-------------content articles---------*/
+
+p {
+    font-size: 13px
+}
+
+.button_showDataBase {
+    width: 151px;
+}
+
+.pic_for_post {
+    margin: 40px 0 43px 0;
+}
+
+.pic_for_postcrop {
+    background: url(../img/grumpy_slide1.jpg);
+    background-position: 0% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 333px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slider_arrow {
+    position: absolute;
+}
+
+.slider_arrow:hover {
+    opacity: .5
+}
+
+.slider_arrow_next {
+    top: 126px;
+    right: -9px;
+}
+
+.slider_arrow_prev {
+    top: 126px;
+    left: -5px;
+}
+
+.nav_slider {
+    display: flex;
+    flex-direction: row;
+    margin-top: 347px;
+    top: 45px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #009a9a;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*-------------------------programs-------------------*/
+
+.program {
+    background: url(../img/body.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 513px;
+    width: 100%;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.program_header {
+    text-align: center;
+    color: white;
+}
+
+.last-word {
+    font-weight: lighter;
+}
+
+.program .row {
+    display: flex;
+    justify-content: center;
+}
+
+.program_programsBox {
+    margin-left: 10px;
+    height: 240px;
+    background: rgba(0, 172, 172, 0.5);
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.program_programsBox h2 {
+    color: white;
+}
+
+.program_programsBox .btn {
+    background: none;
+    border: 1px solid white;
+    color: aliceblue;
+}
+
+.programsBox1:hover {
+    background: url(../img/box_hover1.jpg);
+    background-position: 50% 0%;
+    animation-name: hoverBox;
+    animation-duration: 1s;
+}
+
+.programsBox2:hover {
+    background: url(../img/box_hover2.jpg);
+    background-position: 50% 0%;
+    background-size: cover;
+    animation-name: hoverBox;
+    animation-duration: 1s;
+}
+
+.programsBox3:hover {
+    background: url(../img/box_hover3.jpg);
+    background-position: 50% 0%;
+    background-size: cover;
+    animation-name: hoverBox;
+    animation-duration: 1s;
+}
+
+@keyframes hoverBox {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}
+
+
+/*=======================footer===================*/
+
+footer {
+    background: #2b2b2b;
+}
+
+footer .row>ul li a {
+    font-weight: lighter;
+    color: dimgray;
+}
+
+footer .row>ul li:first-child a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff
+}
+
+footer .row {
+    text-align: center;
+}
+
+.small_footer_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .btn {
+    border 0px;
+    background: none;
+    color: aliceblue;
+}
+
+.collapse li a {
+    font-weight: lighter;
+    color: dimgray;
+}
+
+.btn:hover {
+    border 0px;
+    background: none;
+    color: aliceblue;
+}
+
+.collapse_label {
+    font-weight: bold;
+    font-size: 20px
+}
+
+.btn-primary {
+    border: none;
+    outline: none;
+    background: none
+}
+
+.btn-primary:focus {
+    border: none;
+    outline: none !important;
+    background: none
+}
+
+.btn-primary:hover {
+    border: none;
+    outline: none;
+    background: none
+}
+
+.btn-primary:active {
+    border: none;
+    outline: none;
+    background: none !important;
+}
+
+.line {
+    height: 2px;
+    background: #4d4d4d
+}
+
+.copyright {
+    color: aliceblue;
+    line-height: 91px;
+}
+
+.social_btn {
+    line-height: 91px;
+    width: 95px;
+    height: 91px;
+    display: block;
+    margin: 0
+}
+
+.social_btn:hover {
+    background: #3e7ed6;
+}
+
+.design_by {
+    color: aliceblue;
+    line-height: 91px;
+}
+
+.design_logo {
+    height: 20px;
+    width: 25px;
+    background: url(../img/otakoyi_noHover.png)
+}
+
+.social {
+    margin-left: 185px
+}
